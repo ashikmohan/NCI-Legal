@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Italic';
+    src: url('../fonts/PlayfairDisplay-Italic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AudiType-Normal';
+    src: url('../fonts/AudiType-Normal.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orlando Caps CG';
+    src: url('../fonts/Orlando%20Caps%20CG.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-playfairdisplay-regular {font-family: 'PlayfairDisplay-Regular';}
+.font-playfairdisplay-italic {font-family: 'PlayfairDisplay-Regular'!important;}
+.font-auditype-normal {font-family: 'AudiType-Normal';}
