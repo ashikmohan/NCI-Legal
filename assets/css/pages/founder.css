@@ -1,5 +1,5 @@
 /* .founder {transition: transform 1s cubic-bezier(0.65, 0.16, 0.51, 0.99) 0.2s;position: relative;width: 100%;height: 100vh;background: url("../../images/founder-bg.jpg") no-repeat;background-size: cover;} */
-.founder {transition: transform 1s ease-in 0.2s;position: relative;width: 100%;height: 100vh;background: url("../../images/Untitled\ design\ -\ 2024-07-19T200911.032.png") no-repeat;background-size: cover;}
+.founder {transition: transform 1s ease-in 0.2s;position: relative;width: 100%;height: 100vh;background: url("../../images/NCI.png") no-repeat;background-size: cover;}
 .div-menu-title .label {color: black;}
 .discription {color: rgb(255, 255, 255);}
 
@@ -12,7 +12,7 @@
 @media (max-width: 768px) {
     .header {height: 140px;padding: 4rem 4rem 2rem;}
 }
-.div-page-title {font-size: 3rem;text-transform: uppercase;letter-spacing: 5px;color: var(--color-primary);text-align: center;margin-left: 390px;}
+.div-page-title {font-size: 3rem;text-transform: uppercase;letter-spacing: 5px;color: var(--color-primary);text-align: left;margin-left: 150px;}
 .div-menu-title {display: flex;z-index: 1;cursor: pointer;align-items: center;width:38px;}
 .div-menu-title > svg {width:100%;}
 @media (max-width: 576px) {

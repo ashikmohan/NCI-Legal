@@ -1,6 +1,6 @@
 :root{
-    --color-primary: #dfaa0c;
-    --color-nci-red: #ed1c24;
+    --color-primary: #ee0202;
+    --color-nci-red: #ee0202;
 
     font-size:16px;
 }
@@ -23,7 +23,7 @@
 }
 
 /* body {background: url("../images/bg.jpg") no-repeat;background-size: cover;color: white;font-family: 'PlayfairDisplay-Regular';} */
-body {background-color: #057f95;color: white;font-family: 'PlayfairDisplay-Regular';}
+body {background-color: #000000;color: white;font-family: 'PlayfairDisplay-Regular';}
 body *::selection{background-color:rgba(183,154,102,0.5);}
 @keyframes anim-enter-footer {
     0% {opacity: 0;visibility: hidden;}
@@ -38,7 +38,7 @@ body *::selection{background-color:rgba(183,154,102,0.5);}
 @media (max-width: 768px) {
     .header {height: 140px;padding: 4rem 4rem 2rem;}
 }
-.div-page-title {font-size: 3rem;text-transform: uppercase;letter-spacing: 5px;color: var(--color-primary);text-align: center;margin-left: 290px;}
+.div-page-title {font-size: 3rem;text-transform: uppercase;letter-spacing: 5px;color: var(--color-primary);text-align: left;margin-left: 150px;}
 .div-menu-title {display: flex;z-index: 1;cursor: pointer;align-items: center;width:38px;}
 .div-menu-title > svg {width:100%;}
 @media (max-width: 576px) {
@@ -52,7 +52,7 @@ body *::selection{background-color:rgba(183,154,102,0.5);}
 @media (max-width: 768px) {
     .main {padding: 0rem 4rem;}
 }
-.page-content {margin-left: auto;max-width: 53.5%;line-height: 2rem;}
+.page-content {margin: left ;; max-width: 90%;line-height: 2rem;}
 @media (max-width: 1070px) {
     .page-content {
         max-width: initial;
@@ -91,7 +91,7 @@ body *::selection{background-color:rgba(183,154,102,0.5);}
     width: 100%;
     left: -100%;
     transition: left 0.6s ease-in;
-    background-color: #057f95;
+    background-color: #000000;
     z-index: 1;
     padding: 6.5rem 7rem;
 }
