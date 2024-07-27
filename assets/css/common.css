@@ -34,11 +34,11 @@ body *::selection{background-color:rgba(183,154,102,0.5);}
 .main-container{overflow: hidden;height: 100vh;}
 
 /* HEADER SECTION */
-.header {padding: 2.3rem 14rem 1.5rem 2.6rem;height:21rem;display: flex;flex-direction: column;justify-content: space-between;}
+.header {padding: 2.3rem 14rem 1.5rem 3rem;height:21rem;display: flex;flex-direction: column;justify-content: space-between;}
 @media (max-width: 768px) {
     .header {height: 140px;padding: 4rem 4rem 2rem;}
 }
-.div-page-title {font-size: 3rem;text-transform: uppercase;letter-spacing: 5px;color: var(--color-primary);text-align: left;margin-left: 150px;}
+.div-page-title {font-size: 3rem;text-transform: uppercase;letter-spacing: 5px;color: var(--color-primary);text-align: left;margin-left: 0px; margin-top: 80px;}
 .div-menu-title {display: flex;z-index: 1;cursor: pointer;align-items: center;width:38px;}
 .div-menu-title > svg {width:100%;}
 @media (max-width: 576px) {
@@ -48,11 +48,11 @@ body *::selection{background-color:rgba(183,154,102,0.5);}
 /* HEADER SECTION */
 
 /* MAIN SECTION */
-.main {padding: 0 14rem;}
+.main {padding: 0 4rem;}
 @media (max-width: 768px) {
     .main {padding: 0rem 4rem;}
 }
-.page-content {margin: left ;; max-width: 90%;line-height: 2rem;}
+.page-content { margin-top: 40px; max-width: 80%;line-height: 2rem;}
 @media (max-width: 1070px) {
     .page-content {
         max-width: initial;

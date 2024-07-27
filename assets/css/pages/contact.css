@@ -12,7 +12,7 @@
 @media (max-width: 768px) {
     .header-AT {height: 140px;padding: 4rem 4rem 2rem;}
 }
-.div-page-title-AT {font-size: 3rem;text-transform: uppercase;letter-spacing: 5px;color: var(--color-primary);text-align: left; margin-left: 150px;}
+.div-page-title-AT {font-size: 3rem;text-transform: uppercase;letter-spacing: 5px;color: var(--color-primary);text-align: left; margin-left: 0px; margin-top: 80px;}
 .div-menu-title-AT {display: flex;z-index: 1;cursor: pointer;align-items: center;width:38px;}
 .div-menu-title-AT > svg {width:100%;}
 @media (max-width: 576px) {
@@ -27,7 +27,7 @@
 @media (max-width: 768px) {
     .main {padding: 0rem 4rem;}
 }
-.page-content {margin-left: 190px;max-width: 70%;line-height: 2rem;}
+.page-content {margin-left: 30px;max-width: 70%;line-height: 2rem;}
 @media (max-width: 1070px) {
     .page-content {
         max-width: initial;
