@@ -1,7 +1,7 @@
 /* .founder {transition: transform 1s cubic-bezier(0.65, 0.16, 0.51, 0.99) 0.2s;position: relative;width: 100%;height: 100vh;background: url("../../images/founder-bg.jpg") no-repeat;background-size: cover;} */
-.AT {transition: transform 1s ease-in 0.2s;position: relative;width: 100%;height: 100vh;background: url("../../images/NCI.png") no-repeat;background-size: cover;}
+.AT {transition: transform 1s ease-in 0.2s;position: relative;width: 100%;height: 100vh;background: url("../../images/NCI1.png") no-repeat;background-size: cover;}
 .div-menu-title-AT .label {color: black;}
-.discription-AT {color: rgb(255, 255, 255);}
+.discription-AT {color: rgb(0, 0, 0);}
 
 .main-container.state-menu .AT {transform: translate(100%, 0px);}
 

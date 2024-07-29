@@ -14,7 +14,7 @@
 
 .firm {position: relative;width: 100%;height: 100vh;transform: translate(0px, 60px);}
 .firm-anim {animation: anim-firm 1s forwards;}
-.firm .bg {background: url("../../images/NCI.png") no-repeat;background-size: cover;position: absolute;left: 0;top: 0;right: 0;bottom: 0;z-index: -1;}
+.firm .bg {background: url("../../images/NCI1.png") no-repeat;background-size: cover;position: absolute;left: 0;top: 0;right: 0;bottom: 0;z-index: -1;}
 @keyframes anim-firm {
     0% {transform: translate(0px, 60px);}
     100% {transform: translate(0%, calc(-100vh + 60px));}
